@@ -1,0 +1,35 @@
+
+
+.sugestaopage{
+    position: relative;
+    text-align: center;
+}
+
+.btn-voltar {
+    position: absolute;
+    width: 90px;
+    height: 43px;
+    top: 20px;
+    z-index: 99;
+    background-color: #e6130f;
+    color: #ffffff;
+    padding-top: 11px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+}
+
+.btn-voltar,
+.btn-voltar:visited,
+.btn-voltar:hover,
+.btn-voltar:active {
+    color: #ffffff;          /* impede azul */
+    text-decoration: none;   /* remove sublinhado */
+}
+
+
+/* seta */
+.btn-voltar .seta {
+    font-size: 16px;
+    line-height: 1;
+}

@@ -1,0 +1,17 @@
+
+
+.mainpage{
+    position: relative;
+    text-align: center;
+}
+
+.mainpage .icon {
+    position: absolute;
+    top: 68%;
+    left: 49.9%;
+    width: 18vw;        /* escala com a tela */
+    max-width: 240px;  /* limite máximo */
+    aspect-ratio: 1 / 1;
+    transform: translate(-50%, -50%);
+}
+
